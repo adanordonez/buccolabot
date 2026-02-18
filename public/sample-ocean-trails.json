@@ -1,0 +1,31 @@
+{
+  "caseName": "Ocean Trails CLO VII v. MLN Topco Ltd.",
+  "debtors": [
+    {
+      "id": "d1",
+      "name": "MLN Topco Ltd.",
+      "notes": "Borrower company involved in uptiering transaction.",
+      "type": "debtor"
+    }
+  ],
+  "creditors": [
+    {
+      "id": "c1",
+      "name": "Ocean Trails CLO VII",
+      "notes": "Plaintiff and subordinated minority lender.",
+      "type": "creditor"
+    }
+  ],
+  "assets": [],
+  "equity": [],
+  "transactions": [
+    {
+      "id": "t1",
+      "fromId": "d1",
+      "toId": "c1",
+      "amount": 0
+    }
+  ],
+  "liens": [],
+  "guarantees": []
+}
